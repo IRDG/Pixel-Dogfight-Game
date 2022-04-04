@@ -1,0 +1,176 @@
+
+State Machine - |PixelDogfight|GameBlock:Game|ShipControl:Ship2Ctrl|PrevState
+Name PrevState.PosUp PrevState.PosDownRight PrevState.PosUpRight PrevState.PosRight PrevState.PosDownLeft PrevState.PosUpLeft PrevState.PosLeft PrevState.PosDown PrevState.HoldPosition 
+PrevState.HoldPosition 0 0 0 0 0 0 0 0 0 
+PrevState.PosDown 0 0 0 0 0 0 0 1 1 
+PrevState.PosLeft 0 0 0 0 0 0 1 0 1 
+PrevState.PosUpLeft 0 0 0 0 0 1 0 0 1 
+PrevState.PosDownLeft 0 0 0 0 1 0 0 0 1 
+PrevState.PosRight 0 0 0 1 0 0 0 0 1 
+PrevState.PosUpRight 0 0 1 0 0 0 0 0 1 
+PrevState.PosDownRight 0 1 0 0 0 0 0 0 1 
+PrevState.PosUp 1 0 0 0 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|ShipControl:Ship1Ctrl|PrevState
+Name PrevState.PosUp PrevState.PosDownRight PrevState.PosUpRight PrevState.PosRight PrevState.PosDownLeft PrevState.PosUpLeft PrevState.PosLeft PrevState.PosDown PrevState.HoldPosition 
+PrevState.HoldPosition 0 0 0 0 0 0 0 0 0 
+PrevState.PosDown 0 0 0 0 0 0 0 1 1 
+PrevState.PosLeft 0 0 0 0 0 0 1 0 1 
+PrevState.PosUpLeft 0 0 0 0 0 1 0 0 1 
+PrevState.PosDownLeft 0 0 0 0 1 0 0 0 1 
+PrevState.PosRight 0 0 0 1 0 0 0 0 1 
+PrevState.PosUpRight 0 0 1 0 0 0 0 0 1 
+PrevState.PosDownRight 0 1 0 0 0 0 0 0 1 
+PrevState.PosUp 1 0 0 0 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP2|PrevState
+Name PrevState.Dis PrevState.B01 PrevState.B05 PrevState.B04 PrevState.B03 PrevState.B02 PrevState.Standby 
+PrevState.Standby 0 0 0 0 0 0 0 
+PrevState.B02 0 0 0 0 0 1 1 
+PrevState.B03 0 0 0 0 1 0 1 
+PrevState.B04 0 0 0 1 0 0 1 
+PrevState.B05 0 0 1 0 0 0 1 
+PrevState.B01 0 1 0 0 0 0 1 
+PrevState.Dis 1 0 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP2|Debouncer:Player1Debounce|PrevState
+Name PrevState.PulseHigh PrevState.PulseOut PrevState.Zero PrevState.One 
+PrevState.One 0 0 0 0 
+PrevState.Zero 0 0 1 1 
+PrevState.PulseOut 0 1 0 1 
+PrevState.PulseHigh 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP2|Debouncer:Player1Debounce|SequenceDetector:OnesD|PrevState
+Name PrevState.six PrevState.five PrevState.four PrevState.three PrevState.two PrevState.one 
+PrevState.one 0 0 0 0 0 0 
+PrevState.two 0 0 0 0 1 1 
+PrevState.three 0 0 0 1 0 1 
+PrevState.four 0 0 1 0 0 1 
+PrevState.five 0 1 0 0 0 1 
+PrevState.six 1 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP2|Debouncer:Player1Debounce|SequenceDetector:ZerosD|PrevState
+Name PrevState.six PrevState.five PrevState.four PrevState.three PrevState.two PrevState.one 
+PrevState.one 0 0 0 0 0 0 
+PrevState.two 0 0 0 0 1 1 
+PrevState.three 0 0 0 1 0 1 
+PrevState.four 0 0 1 0 0 1 
+PrevState.five 0 1 0 0 0 1 
+PrevState.six 1 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP1|PrevState
+Name PrevState.Dis PrevState.B01 PrevState.B05 PrevState.B04 PrevState.B03 PrevState.B02 PrevState.Standby 
+PrevState.Standby 0 0 0 0 0 0 0 
+PrevState.B02 0 0 0 0 0 1 1 
+PrevState.B03 0 0 0 0 1 0 1 
+PrevState.B04 0 0 0 1 0 0 1 
+PrevState.B05 0 0 1 0 0 0 1 
+PrevState.B01 0 1 0 0 0 0 1 
+PrevState.Dis 1 0 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP1|Debouncer:Player1Debounce|PrevState
+Name PrevState.PulseHigh PrevState.PulseOut PrevState.Zero PrevState.One 
+PrevState.One 0 0 0 0 
+PrevState.Zero 0 0 1 1 
+PrevState.PulseOut 0 1 0 1 
+PrevState.PulseHigh 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP1|Debouncer:Player1Debounce|SequenceDetector:OnesD|PrevState
+Name PrevState.six PrevState.five PrevState.four PrevState.three PrevState.two PrevState.one 
+PrevState.one 0 0 0 0 0 0 
+PrevState.two 0 0 0 0 1 1 
+PrevState.three 0 0 0 1 0 1 
+PrevState.four 0 0 1 0 0 1 
+PrevState.five 0 1 0 0 0 1 
+PrevState.six 1 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletControl:BcP1|Debouncer:Player1Debounce|SequenceDetector:ZerosD|PrevState
+Name PrevState.six PrevState.five PrevState.four PrevState.three PrevState.two PrevState.one 
+PrevState.one 0 0 0 0 0 0 
+PrevState.two 0 0 0 0 1 1 
+PrevState.three 0 0 0 1 0 1 
+PrevState.four 0 0 1 0 0 1 
+PrevState.five 0 1 0 0 0 1 
+PrevState.six 1 0 0 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm10|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm09|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm08|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm07|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm06|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm05|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm04|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm03|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm02|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|BulletsPosition:Bullets|BulletFsm:Fsm01|PrevState
+Name PrevState.StandbyS PrevState.WaitingS PrevState.MoveS PrevState.DisablingS 
+PrevState.DisablingS 0 0 0 0 
+PrevState.MoveS 0 0 1 1 
+PrevState.WaitingS 0 1 0 1 
+PrevState.StandbyS 1 0 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|ScoreAndHitPoints:BlockN|DamageFsm:DmgDeadTimeP2|PrevState
+Name PrevState.Waiting PrevState.EnableDmg PrevState.DisableDmg 
+PrevState.DisableDmg 0 0 0 
+PrevState.EnableDmg 0 1 1 
+PrevState.Waiting 1 0 1 
+
+State Machine - |PixelDogfight|GameBlock:Game|ScoreAndHitPoints:BlockN|DamageFsm:DmgDeadTimeP1|PrevState
+Name PrevState.Waiting PrevState.EnableDmg PrevState.DisableDmg 
+PrevState.DisableDmg 0 0 0 
+PrevState.EnableDmg 0 1 1 
+PrevState.Waiting 1 0 1 
