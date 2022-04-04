@@ -1,0 +1,267 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\OneDrives\OneDrive\DOCUMENTOS\11 Semestre\Disegno en FPGA\Talleres\Proyecto 1\Blocks\Game\4.0 PixelDogfightV1\simulation\modelsim
+Ebasiccompleteadder
+Z1 w1552059500
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx6 altera 11 dffeas_pack 0 22 oY7WPe2I:Taj0>HV`A`AH0
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx6 altera 28 altera_primitives_components 0 22 H[E=U;zSVlD;ca@gnkzIO0
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z8 dD:\OneDrives\OneDrive\DOCUMENTOS\11 Semestre\Disegno en FPGA\Talleres\Proyecto 1\Blocks\Game\4.0 PixelDogfightV1\simulation\modelsim
+Z9 8D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicCompleteAdder.vhd
+Z10 FD:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicCompleteAdder.vhd
+l0
+L22
+VgGZK<HQ2>6T8hTRHT_[c93
+!s100 8QSc7d28eQMJ==2iX27gL2
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1589131003.217000
+Z13 !s90 -reportprogress|300|-93|-work|work|D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicCompleteAdder.vhd|
+Z14 !s107 D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicCompleteAdder.vhd|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Abasiccompleteadderarch
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 18 basiccompleteadder 0 22 gGZK<HQ2>6T8hTRHT_[c93
+l36
+L34
+V=Y;QP5WcKdK`>Q9K:H=?>3
+!s100 ITKZZYM6HG>]gMBmT3Bcd2
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16
+Ebasichalfaadder
+Z17 w1552067644
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z18 8D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicHalfAadder.vhd
+Z19 FD:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicHalfAadder.vhd
+l0
+L22
+VC_IVMPKaGk3gjNhdAge[j0
+R11
+31
+Z20 !s108 1589131002.937000
+Z21 !s90 -reportprogress|300|-93|-work|work|D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicHalfAadder.vhd|
+Z22 !s107 D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicHalfAadder.vhd|
+R15
+R16
+!s100 9`W;7]Z^;O:MR>OA4gOCh0
+!i10b 1
+Abasichalfaadderarch
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 15 basichalfaadder 0 22 C_IVMPKaGk3gjNhdAge[j0
+l35
+L33
+V9?R0lI5fGgW;W5hRej<O`1
+R11
+31
+R20
+R21
+R22
+R15
+R16
+!s100 `?o?NKFJ6Zce4AQ[3]NbO1
+!i10b 1
+Ebasicxingreaterthanyin
+Z23 w1552063698
+R2
+R3
+R4
+R5
+Z24 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R6
+R7
+R8
+Z26 8D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicXinGreaterThanYin.vhd
+Z27 FD:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicXinGreaterThanYin.vhd
+l0
+L23
+VZ2VFmaS_kzmg72iZ>iVBE3
+R11
+31
+Z28 !s108 1589131002.655000
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicXinGreaterThanYin.vhd|
+Z30 !s107 D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicXinGreaterThanYin.vhd|
+R15
+R16
+!s100 Y5[mm@H9b]NMd@nNM[>d?0
+!i10b 1
+Abasicxingreaterthanyinarch
+R2
+R3
+R4
+R5
+R24
+R25
+R6
+R7
+DEx4 work 22 basicxingreaterthanyin 0 22 Z2VFmaS_kzmg72iZ>iVBE3
+l37
+L35
+VJWm2@RWAVQP4kX7QLBf@W3
+R11
+31
+R28
+R29
+R30
+R15
+R16
+!s100 46:<e`8@dV1hG=d7TPO@L2
+!i10b 1
+Ebulletfsm
+Z31 w1584664895
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z32 8D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/BulletFsm.vhd
+Z33 FD:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/BulletFsm.vhd
+l0
+L23
+VfV4:8an<M7inJJia4A?o60
+R11
+31
+Z34 !s108 1589131002.012000
+Z35 !s90 -reportprogress|300|-93|-work|work|D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/BulletFsm.vhd|
+Z36 !s107 D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/BulletFsm.vhd|
+R15
+R16
+!s100 hCU8HO9k]X5PQhOeGnK_02
+!i10b 1
+Abulletfsmarch
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 bulletfsm 0 22 fV4:8an<M7inJJia4A?o60
+l46
+L39
+Vjhc^gQBJPJOW6STA6Vd[K0
+R11
+31
+R34
+R35
+R36
+R15
+R16
+!s100 U;DKFGh3S1g`Ti@RQo<[@1
+!i10b 1
+Emuxselector2to1
+Z37 w1552241060
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z38 8D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/MuxSelector2to1.vhd
+Z39 FD:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/MuxSelector2to1.vhd
+l0
+L22
+Vc<iz4AHzoTYz7@EzSakgH2
+R11
+31
+Z40 !s108 1589131002.296000
+Z41 !s90 -reportprogress|300|-93|-work|work|D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/MuxSelector2to1.vhd|
+Z42 !s107 D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/MuxSelector2to1.vhd|
+R15
+R16
+!s100 VQGPA7X;l^_KUzDD>:73@1
+!i10b 1
+Amuxselector2to1arch
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 15 muxselector2to1 0 22 c<iz4AHzoTYz7@EzSakgH2
+l38
+L36
+VK]0d?Cfja<P;0:a4hz;jm2
+R11
+31
+R40
+R41
+R42
+R15
+R16
+!s100 `KO7jUC4foO`S=Sf>NIPH3
+!i10b 1
+Esequencedetector
+Z43 w1583003582
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z44 8D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/SequenceDetector.vhd
+Z45 FD:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/SequenceDetector.vhd
+l0
+L23
+VHX2h:<n9gi2Kd_VbIjzRD2
+R11
+31
+Z46 !s108 1589131001.705000
+Z47 !s90 -reportprogress|300|-93|-work|work|D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/SequenceDetector.vhd|
+Z48 !s107 D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/SequenceDetector.vhd|
+R15
+R16
+!s100 1Dm@6@PC:[hWQLUPhnl7:3
+!i10b 1
+Asequencedetectorarch
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 sequencedetector 0 22 HX2h:<n9gi2Kd_VbIjzRD2
+l44
+L37
+V=W0ig4NGcV8DeG7H[OKE20
+R11
+31
+R46
+R47
+R48
+R15
+R16
+!s100 Sj2`HH:8m<l3D=n1^Maej0
+!i10b 1

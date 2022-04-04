@@ -1,0 +1,195 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do PixelDogfightV1_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/SequenceDetector.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity SequenceDetector
+# -- Compiling architecture SequenceDetectorArch of SequenceDetector
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/BulletFsm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity BulletFsm
+# -- Compiling architecture BulletFsmArch of BulletFsm
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/MuxSelector2to1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity MuxSelector2to1
+# -- Compiling architecture MuxSelector2to1Arch of MuxSelector2to1
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicXinGreaterThanYin.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity BasicXinGreaterThanYin
+# -- Compiling architecture BasicXinGreaterThanYinArch of BasicXinGreaterThanYin
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicHalfAadder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity BasicHalfAadder
+# -- Compiling architecture BasicHalfAadderArch of BasicHalfAadder
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/Game/Bcd/BasicCompleteAdder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity BasicCompleteAdder
+# -- Compiling architecture BasicCompleteAdderArch of BasicCompleteAdder
+# vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package MyGamePackage
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(172): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(172): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(172): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(172): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(178): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(178): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(178): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(178): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(220): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(256): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(257): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(258): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(259): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(271): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(271): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(271): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(271): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(276): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(276): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(276): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(276): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(288): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(288): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(288): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(288): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(293): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(293): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(293): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(293): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(298): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(298): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(298): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(298): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(303): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(303): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(303): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(303): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(315): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(315): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(315): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(315): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(320): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(320): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(320): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(320): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(325): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(325): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(325): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(325): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(330): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(330): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(330): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(330): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(342): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(342): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(342): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(342): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(354): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(354): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(354): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(354): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(366): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(366): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(366): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(366): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(378): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(378): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(378): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(378): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(390): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(390): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(390): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(390): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(402): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(402): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(402): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(402): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(414): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(414): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(414): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(414): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(426): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(426): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(426): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(426): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(438): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(438): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(438): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(438): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(450): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(450): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(450): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(450): Cannot call subprogram "Int2StdVector" before it is elaborated.
+# ** Error: D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vhd(517): VHDL Compiler exiting
+# ** Error: C:/altera/13.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./PixelDogfightV1_run_msim_rtl_vhdl.do line 14
+# C:/altera/13.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {D:/OneDrives/OneDrive/DOCUMENTOS/11 Semestre/Disegno en FPGA/Talleres/Proyecto 1/Blocks/Game/4.0 PixelDogfightV1/MyGamePackage.vh..."
